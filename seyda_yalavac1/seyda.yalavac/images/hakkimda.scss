@@ -1,0 +1,51 @@
+@use "Hakkimda.html";
+
+#Hakkımda {
+       
+        $primary--color: #ff885b;
+        $secondary--color: #557c56;
+        $light--color: #e9eed9;
+        $dark--color: #33372c;
+        $max-width: 100px;
+        $font-stack:'agdasima,sans serif';
+    body {
+      font-family: $font-stack;
+      color: $dark--color;
+    }
+    * {
+        margin: 10;
+        padding: 10;
+        box-sizing: border-box;
+      }
+
+    $light-theme: #e9eed9;
+    
+    $dark-theme-: #33372c;;
+    }
+    
+    &-b { 
+            img {
+              float:left;
+             }
+            
+          
+         .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+          }
+          
+          .row::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+          .row {
+            display: flex;
+          }
+          
+          .column {
+            flex: 33.33%;
+            padding: 5px;
+          }
+        }

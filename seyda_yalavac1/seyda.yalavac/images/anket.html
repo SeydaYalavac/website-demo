@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="anketveben.css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="anasayfa.html"></a>
+    
+    <!-- header -->
+    <header id="header__inner">
+        <div class="container">
+            <nav class="main-nav">
+                <ul class="main-nav__items">
+                    <li><a href="Anasayfa.html" >Anasayfa</a></li>
+                    <li><a href="hakkimda.html" class="active">Hakkımda</a></li>
+                    <li><a href="projelerim.html">Projelerim</a></li>
+                    <li><a href="Anket.html">anket</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   
+    <form action="register.php">
+
+        <div>
+            <label for="name">Adınız</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="surname">Soyad</label>
+            <input type="text" id="surname">
+        </div>
+<br><br><br>
+
+        <div>
+            <label for="intro">Kendini Anlat</label>
+            <textarea id="intro" cols="30"></textarea>
+        </div>
+        <div>
+            <p>En sevdiğin programlama dili: </p>
+            <input type="radio" id="html" name="programlama">
+            <label for="html">HTML</label>
+
+            <input type="radio" id="css" name="programlama">
+            <label for="css">CSS</label>
+
+            <input type="radio" id="javascript" name="programlama">
+            <label for="javascript">Javascript</label>
+        </div>
+<br><br>
+        <div>
+            <p>En sevdiğin yemek(aşağıdakilere göre): </p>
+            <input type="checkbox" id="Mantı2">
+            <label for="Mantı2">Mantı</label>
+
+            <input type="checkbox" id="İskender2">
+            <label for="İskender">İskender</label>
+
+            <input type="checkbox" id="Beyti2">
+            <label for="Beyti2">Beyti</label>
+            
+            <input type="checkbox" id="Pırasa">
+            <label for="Pırasa">Pırasa</label>
+        </div>
+        <br><br>
+        <div>
+            <p>Boş Zamanında Neler Yaparsın: </p>
+            <input type="checkbox" id="Telefon bakarım3">
+            <label for="Telefon bakarım3">Telefon bakarım</label>
+
+            <input type="checkbox" id="Oyun oynarım3">
+            <label for="Oyun oynarım3">Oyun oynarım</label>
+
+            <input type="checkbox" id="Kitap okurum3">
+            <label for="Kitap okurum3">Kitap okurum</label>
+            
+            <input type="checkbox" id="Arkadaşlarımla eğlenir ya da gezerim3">
+            <label for="Arkadaşlarımla eğlenir ya da gezerim3">Arkadaşlarımla eğlenir ya da gezerim</label>
+        </div>
+        <br><br>
+        <div>
+            <label for="cities">DÜ sevdin mi</label>
+            <select id="cities">
+                <option value="41">Evet</option>
+                <option value="34">Hayır</option>
+            </select>
+        </div>
+<br><br>
+        <div>
+            <label for="eposta">Email</label>
+            <input type="email" id="eposta">
+        </div>
+<br>
+
+        <div>
+            <label for="birthday">Doğum Günün:</label>
+            <input type="date" id="birthday" name="birthday">
+        </div>
+<br>
+        <button type="submit">Kaydet</button>
+        <button type="reset">Temizle</button>
+
+    </form>
